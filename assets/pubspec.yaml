@@ -1,0 +1,27 @@
+name: assets
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # 3 adet assets dosyamız için yapmamız gereken assets tanımları şu şekilde olmalıdır
+  # birşey hemen dikkatinizi çekmiştir trafiklogo.png assets klasörü ana dizininde 
+  # olduğundan assets/ öneki ve icons klasörü tanımı yapılmamıştır.
+  assets:
+  - assets/icons/kaskologo.png
+  - assets/icons/sagliklogo.png
+  - trafiklogo.png
